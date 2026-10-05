@@ -20,6 +20,8 @@ def main():
             print("BETWEENER")
 
     print("--- Part 1: yours ---")
+    if user_age >= LOW_AGE and user_age < HIGH_AGE:
+        print("BETWEENER")
 
 
     print("--- Part 2: given ---")
